@@ -14,6 +14,6 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
-  gem.add_development_dependency 'httparty', '~> 0'
+  gem.add_development_dependency 'httparty', '~> 0', '0.13.5'
   gem.license       = 'GNU'
 end
