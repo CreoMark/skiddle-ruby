@@ -2,7 +2,6 @@ require 'json'
 require 'httparty'
 require 'ostruct'
 require 'uri'
-require 'pry'
 
 require_relative 'skiddle/document'
 require_relative 'skiddle/client'
